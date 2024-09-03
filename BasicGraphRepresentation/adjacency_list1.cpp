@@ -21,9 +21,9 @@ int main()
 
     /*   K kar sathe connected    */
     vector<int> v;
-    for(int i=0; i<mat[0].size(); i++)
+    for(int i=0; i<mat[3].size(); i++)
     {
-        cout << mat[0][i] << " ";
+        cout << mat[3][i] << " ";
     }
     return 0;
 }
