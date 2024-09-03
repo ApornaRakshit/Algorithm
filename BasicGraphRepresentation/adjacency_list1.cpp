@@ -21,9 +21,20 @@ int main()
 
     /*   K kar sathe connected    */
     vector<int> v;
-    for(int i=0; i<mat[3].size(); i++)
+    for(int i=0; i<mat[0].size(); i++)
     {
-        cout << mat[3][i] << " ";
+        cout << mat[0][i] << " ";
     }
     return 0;
 }
+
+
+// Output:
+6 6
+0 1
+1 5
+0 4
+0 3
+3 4
+2 4
+1 4 3       /* O er sathe 1 4 3 connected */
